@@ -13,13 +13,15 @@
     CGRect frame;
     UIColor* fillColor;
     NSString* name;
+    ESCustomDrawingView* container;
 }
 
 @property (nonatomic, assign) CGRect frame;
 @property (nonatomic, retain) UIColor* color;
 @property (nonatomic, retain) NSString* name;
+@property (nonatomic, retain) ESCustomDrawingView* container;
 
-+ (id) rectangleDrawWithFrame:(CGRect)frame withColor:(UIColor*)color name:(NSString*)name;
-- (id) initWithFrame:(CGRect)frame withColor:(UIColor*)color name:(NSString*)name;
++ (id) rectangleDrawWithFrame:(CGRect)frame withColor:(UIColor*)color name:(NSString*)name container:(ESCustomDrawingView*)container;
+- (id) initWithFrame:(CGRect)frame withColor:(UIColor*)color name:(NSString*)name container:(ESCustomDrawingView*)container;
 
 @end

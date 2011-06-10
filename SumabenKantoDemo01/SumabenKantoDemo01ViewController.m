@@ -37,13 +37,16 @@
     [NSArray arrayWithObjects:
      [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(10, 10, 100, 100) 
                                    withColor:[UIColor redColor]
-                                        name:@"赤"],
+                                        name:@"赤"
+                                   container:customDrawingView],
      [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(140, 70, 80, 60) 
                                    withColor:[UIColor greenColor]
-                                        name:@"緑"],
+                                        name:@"緑"
+                                   container:customDrawingView],
      [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(120, 140, 120, 190) 
                                    withColor:[UIColor blueColor]
-                                        name:@"青"],
+                                        name:@"青"
+                                   container:customDrawingView],
      nil];
 }
 
