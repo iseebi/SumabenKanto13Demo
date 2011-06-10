@@ -8,12 +8,51 @@
 
 #import "SumabenKantoDemo01ViewController.h"
 
+#import "ESCustomDrawingView.h"
+#import "ESRectangleDraw.h"
+
 @implementation SumabenKantoDemo01ViewController
+@synthesize customDrawingView;
+
+//----------------------------------------------------------------------------------------
+#pragma mark 初期化/解放
+//----------------------------------------------------------------------------------------
 
 - (void)dealloc
 {
+    [customDrawingView release];
     [super dealloc];
 }
+
+//----------------------------------------------------------------------------------------
+#pragma mark ビュー作成／解放
+//----------------------------------------------------------------------------------------
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    // 描画オブジェクトセット
+    self.customDrawingView.drawingObjects = 
+    [NSArray arrayWithObjects:
+     [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(10, 10, 100, 100) 
+                                   withColor:[UIColor redColor]],
+     [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(140, 70, 80, 60) 
+                                   withColor:[UIColor greenColor]],
+     [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(120, 140, 120, 190) 
+                                   withColor:[UIColor blueColor]],
+     nil];
+}
+
+- (void)viewDidUnload
+{
+    [self setCustomDrawingView:nil];
+    [super viewDidUnload];
+}
+
+//----------------------------------------------------------------------------------------
+#pragma mark メモリ管理
+//----------------------------------------------------------------------------------------
 
 - (void)didReceiveMemoryWarning
 {
@@ -23,22 +62,9 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
+//----------------------------------------------------------------------------------------
+#pragma mark 画面回転サポート
+//----------------------------------------------------------------------------------------
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

@@ -16,6 +16,8 @@
 		827FAC3B13A20EA10049DC90 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 827FAC3913A20EA10049DC90 /* MainWindow.xib */; };
 		827FAC3E13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827FAC3D13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m */; };
 		827FAC4113A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 827FAC3F13A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib */; };
+		827FAC4913A20F320049DC90 /* ESRectangleDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 827FAC4813A20F320049DC90 /* ESRectangleDraw.m */; };
+		827FAC4C13A210B40049DC90 /* ESCustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 827FAC4B13A210B40049DC90 /* ESCustomDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,20 @@
 		827FAC2713A20EA10049DC90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		827FAC2913A20EA10049DC90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		827FAC2B13A20EA10049DC90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		827FAC2F13A20EA10049DC90 /* SumabenKantoDemo01-Info.plist */ = {isa = PBXFileReference; path = "SumabenKantoDemo01-Info.plist"; sourceTree = "<group>"; };
+		827FAC2F13A20EA10049DC90 /* SumabenKantoDemo01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SumabenKantoDemo01-Info.plist"; sourceTree = "<group>"; };
 		827FAC3113A20EA10049DC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		827FAC3313A20EA10049DC90 /* SumabenKantoDemo01-Prefix.pch */ = {isa = PBXFileReference; path = "SumabenKantoDemo01-Prefix.pch"; sourceTree = "<group>"; };
+		827FAC3313A20EA10049DC90 /* SumabenKantoDemo01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SumabenKantoDemo01-Prefix.pch"; sourceTree = "<group>"; };
 		827FAC3413A20EA10049DC90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		827FAC3613A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.h */ = {isa = PBXFileReference; path = SumabenKantoDemo01AppDelegate.h; sourceTree = "<group>"; };
+		827FAC3613A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumabenKantoDemo01AppDelegate.h; sourceTree = "<group>"; };
 		827FAC3713A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumabenKantoDemo01AppDelegate.m; sourceTree = "<group>"; };
 		827FAC3A13A20EA10049DC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		827FAC3C13A20EA10049DC90 /* SumabenKantoDemo01ViewController.h */ = {isa = PBXFileReference; path = SumabenKantoDemo01ViewController.h; sourceTree = "<group>"; };
+		827FAC3C13A20EA10049DC90 /* SumabenKantoDemo01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumabenKantoDemo01ViewController.h; sourceTree = "<group>"; };
 		827FAC3D13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumabenKantoDemo01ViewController.m; sourceTree = "<group>"; };
 		827FAC4013A20EA10049DC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SumabenKantoDemo01ViewController.xib; sourceTree = "<group>"; };
+		827FAC4713A20F320049DC90 /* ESRectangleDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRectangleDraw.h; sourceTree = "<group>"; };
+		827FAC4813A20F320049DC90 /* ESRectangleDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESRectangleDraw.m; sourceTree = "<group>"; };
+		827FAC4A13A210B40049DC90 /* ESCustomDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCustomDrawingView.h; sourceTree = "<group>"; };
+		827FAC4B13A210B40049DC90 /* ESCustomDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCustomDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +85,15 @@
 		827FAC2D13A20EA10049DC90 /* SumabenKantoDemo01 */ = {
 			isa = PBXGroup;
 			children = (
+				827FAC4713A20F320049DC90 /* ESRectangleDraw.h */,
+				827FAC4813A20F320049DC90 /* ESRectangleDraw.m */,
+				827FAC4A13A210B40049DC90 /* ESCustomDrawingView.h */,
+				827FAC4B13A210B40049DC90 /* ESCustomDrawingView.m */,
+				827FAC3C13A20EA10049DC90 /* SumabenKantoDemo01ViewController.h */,
+				827FAC3D13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m */,
 				827FAC3613A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.h */,
 				827FAC3713A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m */,
 				827FAC3913A20EA10049DC90 /* MainWindow.xib */,
-				827FAC3C13A20EA10049DC90 /* SumabenKantoDemo01ViewController.h */,
-				827FAC3D13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m */,
 				827FAC3F13A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib */,
 				827FAC2E13A20EA10049DC90 /* Supporting Files */,
 			);
@@ -164,6 +174,8 @@
 				827FAC3513A20EA10049DC90 /* main.m in Sources */,
 				827FAC3813A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m in Sources */,
 				827FAC3E13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m in Sources */,
+				827FAC4913A20F320049DC90 /* ESRectangleDraw.m in Sources */,
+				827FAC4C13A210B40049DC90 /* ESCustomDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

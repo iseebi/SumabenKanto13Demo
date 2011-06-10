@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class ESCustomDrawingView;
+
 @interface SumabenKantoDemo01ViewController : UIViewController {
     
+    ESCustomDrawingView *customDrawingView;
 }
+@property (nonatomic, retain) IBOutlet ESCustomDrawingView *customDrawingView;
 
 @end
