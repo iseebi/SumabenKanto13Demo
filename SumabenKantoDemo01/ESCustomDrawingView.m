@@ -50,5 +50,16 @@
 #pragma mark アクセシビリティサポート
 //----------------------------------------------------------------------------------------
 
+- (NSInteger) accessibilityElementCount {
+    return [drawingObjects count];
+}
+
+- (id)accessibilityElementAtIndex:(NSInteger)index {
+    return [drawingObjects objectAtIndex:index];
+}
+
+- (NSInteger)indexOfAccessibilityElement:(id)element {
+    return [drawingObjects indexOfAccessibilityElement:element];
+}
 
 @end

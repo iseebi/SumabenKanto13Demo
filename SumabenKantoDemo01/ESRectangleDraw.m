@@ -59,4 +59,20 @@
 #pragma mark アクセシビリティサポート
 //----------------------------------------------------------------------------------------
 
+- (BOOL)isAccessibilityElement {
+    return YES;
+}
+
+- (NSString *)accessibilityLabel {
+    return name;
+}
+
+- (UIAccessibilityTraits) accessibilityTraits {
+    return UIAccessibilityTraitImage;
+}
+
+- (CGRect) accessibilityFrame {
+    return [container.window convertRect:frame fromView:container];
+}
+
 @end
