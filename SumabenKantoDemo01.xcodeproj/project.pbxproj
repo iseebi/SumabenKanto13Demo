@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		827FAC2813A20EA10049DC90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827FAC2713A20EA10049DC90 /* UIKit.framework */; };
+		827FAC2A13A20EA10049DC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827FAC2913A20EA10049DC90 /* Foundation.framework */; };
+		827FAC2C13A20EA10049DC90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827FAC2B13A20EA10049DC90 /* CoreGraphics.framework */; };
+		827FAC3213A20EA10049DC90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 827FAC3013A20EA10049DC90 /* InfoPlist.strings */; };
+		827FAC3513A20EA10049DC90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827FAC3413A20EA10049DC90 /* main.m */; };
+		827FAC3813A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 827FAC3713A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m */; };
+		827FAC3B13A20EA10049DC90 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 827FAC3913A20EA10049DC90 /* MainWindow.xib */; };
+		827FAC3E13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827FAC3D13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m */; };
+		827FAC4113A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 827FAC3F13A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		827FAC2313A20EA10049DC90 /* SumabenKantoDemo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumabenKantoDemo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		827FAC2713A20EA10049DC90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		827FAC2913A20EA10049DC90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		827FAC2B13A20EA10049DC90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		827FAC2F13A20EA10049DC90 /* SumabenKantoDemo01-Info.plist */ = {isa = PBXFileReference; path = "SumabenKantoDemo01-Info.plist"; sourceTree = "<group>"; };
+		827FAC3113A20EA10049DC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		827FAC3313A20EA10049DC90 /* SumabenKantoDemo01-Prefix.pch */ = {isa = PBXFileReference; path = "SumabenKantoDemo01-Prefix.pch"; sourceTree = "<group>"; };
+		827FAC3413A20EA10049DC90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		827FAC3613A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.h */ = {isa = PBXFileReference; path = SumabenKantoDemo01AppDelegate.h; sourceTree = "<group>"; };
+		827FAC3713A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumabenKantoDemo01AppDelegate.m; sourceTree = "<group>"; };
+		827FAC3A13A20EA10049DC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		827FAC3C13A20EA10049DC90 /* SumabenKantoDemo01ViewController.h */ = {isa = PBXFileReference; path = SumabenKantoDemo01ViewController.h; sourceTree = "<group>"; };
+		827FAC3D13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumabenKantoDemo01ViewController.m; sourceTree = "<group>"; };
+		827FAC4013A20EA10049DC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SumabenKantoDemo01ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		827FAC2013A20EA10049DC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827FAC2813A20EA10049DC90 /* UIKit.framework in Frameworks */,
+				827FAC2A13A20EA10049DC90 /* Foundation.framework in Frameworks */,
+				827FAC2C13A20EA10049DC90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		827FAC1813A20EA10049DC90 = {
+			isa = PBXGroup;
+			children = (
+				827FAC2D13A20EA10049DC90 /* SumabenKantoDemo01 */,
+				827FAC2613A20EA10049DC90 /* Frameworks */,
+				827FAC2413A20EA10049DC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		827FAC2413A20EA10049DC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827FAC2313A20EA10049DC90 /* SumabenKantoDemo01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827FAC2613A20EA10049DC90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827FAC2713A20EA10049DC90 /* UIKit.framework */,
+				827FAC2913A20EA10049DC90 /* Foundation.framework */,
+				827FAC2B13A20EA10049DC90 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		827FAC2D13A20EA10049DC90 /* SumabenKantoDemo01 */ = {
+			isa = PBXGroup;
+			children = (
+				827FAC3613A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.h */,
+				827FAC3713A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m */,
+				827FAC3913A20EA10049DC90 /* MainWindow.xib */,
+				827FAC3C13A20EA10049DC90 /* SumabenKantoDemo01ViewController.h */,
+				827FAC3D13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m */,
+				827FAC3F13A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib */,
+				827FAC2E13A20EA10049DC90 /* Supporting Files */,
+			);
+			path = SumabenKantoDemo01;
+			sourceTree = "<group>";
+		};
+		827FAC2E13A20EA10049DC90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				827FAC2F13A20EA10049DC90 /* SumabenKantoDemo01-Info.plist */,
+				827FAC3013A20EA10049DC90 /* InfoPlist.strings */,
+				827FAC3313A20EA10049DC90 /* SumabenKantoDemo01-Prefix.pch */,
+				827FAC3413A20EA10049DC90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827FAC2213A20EA10049DC90 /* SumabenKantoDemo01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827FAC4413A20EA10049DC90 /* Build configuration list for PBXNativeTarget "SumabenKantoDemo01" */;
+			buildPhases = (
+				827FAC1F13A20EA10049DC90 /* Sources */,
+				827FAC2013A20EA10049DC90 /* Frameworks */,
+				827FAC2113A20EA10049DC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumabenKantoDemo01;
+			productName = SumabenKantoDemo01;
+			productReference = 827FAC2313A20EA10049DC90 /* SumabenKantoDemo01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827FAC1A13A20EA10049DC90 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 827FAC1D13A20EA10049DC90 /* Build configuration list for PBXProject "SumabenKantoDemo01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 827FAC1813A20EA10049DC90;
+			productRefGroup = 827FAC2413A20EA10049DC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				827FAC2213A20EA10049DC90 /* SumabenKantoDemo01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827FAC2113A20EA10049DC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827FAC3213A20EA10049DC90 /* InfoPlist.strings in Resources */,
+				827FAC3B13A20EA10049DC90 /* MainWindow.xib in Resources */,
+				827FAC4113A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827FAC1F13A20EA10049DC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827FAC3513A20EA10049DC90 /* main.m in Sources */,
+				827FAC3813A20EA10049DC90 /* SumabenKantoDemo01AppDelegate.m in Sources */,
+				827FAC3E13A20EA10049DC90 /* SumabenKantoDemo01ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		827FAC3013A20EA10049DC90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827FAC3113A20EA10049DC90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		827FAC3913A20EA10049DC90 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827FAC3A13A20EA10049DC90 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		827FAC3F13A20EA10049DC90 /* SumabenKantoDemo01ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827FAC4013A20EA10049DC90 /* en */,
+			);
+			name = SumabenKantoDemo01ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		827FAC4213A20EA10049DC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		827FAC4313A20EA10049DC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		827FAC4513A20EA10049DC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumabenKantoDemo01/SumabenKantoDemo01-Prefix.pch";
+				INFOPLIST_FILE = "SumabenKantoDemo01/SumabenKantoDemo01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		827FAC4613A20EA10049DC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SumabenKantoDemo01/SumabenKantoDemo01-Prefix.pch";
+				INFOPLIST_FILE = "SumabenKantoDemo01/SumabenKantoDemo01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		827FAC1D13A20EA10049DC90 /* Build configuration list for PBXProject "SumabenKantoDemo01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827FAC4213A20EA10049DC90 /* Debug */,
+				827FAC4313A20EA10049DC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827FAC4413A20EA10049DC90 /* Build configuration list for PBXNativeTarget "SumabenKantoDemo01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827FAC4513A20EA10049DC90 /* Debug */,
+				827FAC4613A20EA10049DC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 827FAC1A13A20EA10049DC90 /* Project object */;
+}
