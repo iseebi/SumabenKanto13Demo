@@ -36,11 +36,14 @@
     self.customDrawingView.drawingObjects = 
     [NSArray arrayWithObjects:
      [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(10, 10, 100, 100) 
-                                   withColor:[UIColor redColor]],
+                                   withColor:[UIColor redColor]
+                                        name:@"赤"],
      [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(140, 70, 80, 60) 
-                                   withColor:[UIColor greenColor]],
+                                   withColor:[UIColor greenColor]
+                                        name:@"緑"],
      [ESRectangleDraw rectangleDrawWithFrame:CGRectMake(120, 140, 120, 190) 
-                                   withColor:[UIColor blueColor]],
+                                   withColor:[UIColor blueColor]
+                                        name:@"青"],
      nil];
 }
 

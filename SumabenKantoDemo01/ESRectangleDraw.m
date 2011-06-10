@@ -12,26 +12,29 @@
 
 @synthesize frame;
 @synthesize color;
+@synthesize name;
 
 //----------------------------------------------------------------------------------------
 #pragma mark 初期化／解放
 //----------------------------------------------------------------------------------------
 
-+ (id) rectangleDrawWithFrame:(CGRect)frame withColor:(UIColor*)color {
-    return [[[self alloc] initWithFrame:frame withColor:color] autorelease];
++ (id) rectangleDrawWithFrame:(CGRect)frame withColor:(UIColor*)color name:(NSString*)name {
+    return [[[self alloc] initWithFrame:frame withColor:color name:name] autorelease];
 }
 
-- (id)initWithFrame:(CGRect)aFrame withColor:(UIColor *)aColor {
+- (id) initWithFrame:(CGRect)aFrame withColor:(UIColor*)aColor name:(NSString*)aName {
     self = [super init];
     if (self) {
         self.frame = aFrame;
         self.color = aColor;
+        self.name = aName;
     }
     return self;
 }
 
 - (void) dealloc {
     self.color = nil;
+    self.name = nil;
     [super dealloc];  
 }
 
